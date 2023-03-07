@@ -17,4 +17,4 @@ Fixes #(issue)
 - [ ] Changes are limited to a single goal (avoid scope creep)
 - [ ] Code can be automatically merged (no conflicts)
 - [ ] I confirm that I have read the Contribution guidelines, [CONTRIBUTING](https://github.com/ascpretro/.github/blob/main/CONTRIBUTING.adoc).
-- [ ] I confirm that I wrote and/or have the right to submit the contents of my PR, by agreeing to the Developer Certificate of Origin (see [CONTRIBUTING](./CONTRIBUTING.adoc).
+- [ ] I confirm that I wrote and/or have the right to submit the contents of my PR, by agreeing to the Developer Certificate of Origin (see [CONTRIBUTING](CONTRIBUTING.adoc).
