@@ -9,7 +9,7 @@ Here you can find tools that helps you in your daily developer life.
 
 And also a place gathering Swedish translations efforts for a few commonly used FOSS-projects and guidances:
 
-[OpenSSF - Best practices for OS Developers](https://github.com/itiquette/opensource.guide)
+[OpenSSF - Best practices for OS Developers](https://github.com/itiquette/wg-best-practices-os-developers)
 
 [Open Source Guide - GitHub](https://github.com/itiquette/opensource.guide)
 
