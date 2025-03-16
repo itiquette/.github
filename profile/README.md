@@ -7,9 +7,9 @@ Here you can find tools that helps you in your daily developer life.
 
 [GommitLint](https://github.com/itiquette/gommitlint) - A no thrills CI-friendly CLI CommitLint tool.
 
-And also a place gathering Swedish translations efforts for a few common FOSS-projects and guidances:
+And also a place gathering Swedish translations efforts for a few commonly used FOSS-projects and guidances:
 
-[OpenSSF - Best practices for OS Developers](https://github.com/itiquette/opensource.guide))
+[OpenSSF - Best practices for OS Developers](https://github.com/itiquette/opensource.guide)
 
 [Open Source Guide - GitHub](https://github.com/itiquette/opensource.guide)
 
