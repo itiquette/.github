@@ -72,7 +72,7 @@ jobs:
 
       - name: Import GPG key
         id: import-gpg
-        uses: crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec # v6
+        uses: crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec # v6.3.0
         with:
           gpg_private_key: ${{ secrets.BOT_GPG_PRIV }} 
           passphrase: ${{ secrets.BOT_GPG_PASS }} 
@@ -81,7 +81,7 @@ jobs:
           git_config_global: true
 
       - name: Generate changelog
-        uses: orhun/git-cliff-action@4a4a951bc43fafe41cd2348d181853f52356bee7 # v4
+        uses: orhun/git-cliff-action@4a4a951bc43fafe41cd2348d181853f52356bee7 # v4.4.2
         with:
           config: ${{ inputs.changelog-config }} 
         env:
@@ -90,7 +90,7 @@ jobs:
 
       - name: Generate minimal changelog
         id: minimal-changelog
-        uses: orhun/git-cliff-action@4a4a951bc43fafe41cd2348d181853f52356bee7 # v4
+        uses: orhun/git-cliff-action@4a4a951bc43fafe41cd2348d181853f52356bee7 # v4.4.2
         with:
           config: ${{ inputs.minimal-changelog-config }}
           args: --latest --strip header
@@ -98,7 +98,7 @@ jobs:
           GITHUB_REPO: ${{ github.repository }}
 
       - name: Commit and Push Changes
-        uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79 # v5
+        uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79 # v5.1.0
         with:
           commit_message: |
             chore(release): ${{ github.ref_name }}
