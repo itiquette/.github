@@ -84,7 +84,7 @@
       "automerge": true
     }
   ],
-  "prConcurrentLimit": 4,
+  "prConcurrentLimit": 8,
   "prCreation": "immediate",
   "rangeStrategy": "auto",
   "ignorePresets": [
