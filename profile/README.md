@@ -1,7 +1,7 @@
 # Itiquette
 
-Welcome to this little corner of the world.
+A devops and tooling focused corner of the world.
 
-Here you can find tools that helps you in your daily developer life.
+Here you can find tools that helps you in your daily developer/devops life.
 
 -----> https://itiquette.github.io/
