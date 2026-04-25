@@ -1,9 +1,7 @@
 # Itiquette
 
-A devops and tooling focused corner of the world.
-We also enjoy translations to Swedish
-
-Here you can find tools that helps you in your daily developer/devops life.
+A devops and tooling focused corner of the world  
+Besides devops, We also enjoy doing translations to Swedish.  
 
 Most projects have moved to Codeberg, but this place is not dead - GitHub-specific stuff will be found here.
 
