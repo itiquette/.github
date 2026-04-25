@@ -7,17 +7,16 @@ Here you can find tools that helps you in your daily developer/devops life.
 
 Most projects have moved to Codeberg, but this place is not dead - GitHub-specific stuff will be found here.
 
------> [Codeberg - itiquette](https://codeberg.org/Itiquette)
-and
------> [Codeberg - l10n-swedish](https://codeberg.org/l10n-swedish)
+[Codeberg - Itiquette organisation](https://codeberg.org/Itiquette)  
+[Codeberg - l10n-swedish organisation](https://codeberg.org/l10n-swedish)
 
-Translations forked and maintained here:
+Translations still maintained here:
 
-The Missing Semester [CC-BY-NC](https://creativecommons.org/licenses/by-nc-sa/4.0):
-[Den saknade terminen}(https://den-saknade-terminen.l10n.se)
+The Missing Semester  
+[Den saknade terminen - HTML](https://den-saknade-terminen.l10n.se)  
 [Repo](https://github.com/itiquette/den-saknade-terminen)
 
 
-The Linux Commandline [CC BY-NC-ND 3.0 US](https://creativecommons.org/licenses/by-nc-nd/3.0/us/deed.en)
-[Kommandoraden i Linux}(https://kommandoraden-i-linux.l10n.se)
+The Linux Commandline   
+[Kommandoraden i Linux - HTML](https://kommandoraden-i-linux.l10n.se)  
 [Repo](https://github.com/itiquette/kommandoraden-i-linux)
