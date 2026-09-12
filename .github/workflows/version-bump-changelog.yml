@@ -59,7 +59,7 @@ jobs:
       contents: write
     steps:
       - name: Harden GitHub runner
-        uses: step-security/harden-runner@05e31511f85b41b11d1cf0ef85d0992719546e2c # v2.21.0
+        uses: step-security/harden-runner@e14015d583714f6e62063499dc959a02595150a1 # v2.21.1
         with:
           egress-policy: ${{ inputs.egress-policy }}
     
@@ -81,7 +81,7 @@ jobs:
           git_config_global: true
 
       - name: Generate changelog
-        uses: orhun/git-cliff-action@f50e11560dce63f7c33227798f90b924471a88b5 # v4.8.0
+        uses: orhun/git-cliff-action@3d96a18cc4ec17e9dc69ddcc424ccafaf1f78ce2 # v4.9.0
         with:
           config: ${{ inputs.changelog-config }} 
         env:
@@ -90,7 +90,7 @@ jobs:
 
       - name: Generate minimal changelog
         id: minimal-changelog
-        uses: orhun/git-cliff-action@f50e11560dce63f7c33227798f90b924471a88b5 # v4.8.0
+        uses: orhun/git-cliff-action@3d96a18cc4ec17e9dc69ddcc424ccafaf1f78ce2 # v4.9.0
         with:
           config: ${{ inputs.minimal-changelog-config }}
           args: --latest --strip header
