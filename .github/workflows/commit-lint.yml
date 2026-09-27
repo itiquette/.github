@@ -49,6 +49,6 @@ jobs:
         run: git fetch origin ${{ inputs.base-branch }}:${{ inputs.base-branch }}
 
       - name: Commit (conform) analysis
-        uses: docker://ghcr.io/siderolabs/conform@sha256:f7e72122d4296b90285ac51964361295adf1f2018420a8547cb2b069f94a776d
+        uses: docker://ghcr.io/siderolabs/conform@sha256:94bc2ae72cff4f2f10b1102e2a3a465d45080ef6fb7beeef58e42b09980cd18f
         with:
           args: "enforce --base-branch=${{ inputs.base-branch }}"
