@@ -81,7 +81,7 @@ jobs:
           git_config_global: true
 
       - name: Generate changelog
-        uses: orhun/git-cliff-action@3d96a18cc4ec17e9dc69ddcc424ccafaf1f78ce2 # v4.9.0
+        uses: orhun/git-cliff-action@a9a95522b26fe6403f7bb24031f21fb573d0f5ff # v4.9.1
         with:
           config: ${{ inputs.changelog-config }} 
         env:
@@ -90,7 +90,7 @@ jobs:
 
       - name: Generate minimal changelog
         id: minimal-changelog
-        uses: orhun/git-cliff-action@3d96a18cc4ec17e9dc69ddcc424ccafaf1f78ce2 # v4.9.0
+        uses: orhun/git-cliff-action@a9a95522b26fe6403f7bb24031f21fb573d0f5ff # v4.9.1
         with:
           config: ${{ inputs.minimal-changelog-config }}
           args: --latest --strip header
