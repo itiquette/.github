@@ -4,9 +4,10 @@ A devops and tooling focused corner of the world
 Besides devops, We also enjoy doing translations to Swedish.  
 
 Most projects are moving to Codefloe, but this place is not dead - GitHub-specific stuff will be found here.
+And we use the ghcr package registry at times.
 
-[Codeberg - Itiquette organisation](https://codefloe.com/itiquette)  
-[Codeberg - l10n-swedish organisation](https://codefloe.com/l10n-swedish)
+[Codefloe - Itiquette organisation](https://codefloe.com/itiquette)  
+[Codefloe - l10n-swedish organisation](https://codefloe.com/l10n-swedish)
 
 Translations still maintained here
 
